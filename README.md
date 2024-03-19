@@ -57,13 +57,13 @@ Install from NI Package Manager:
       
       LabVIEW (2021 SP1 or higher)
       
-      SDC 2023 Q4 or higher (to communicate with DUT)
+      SDC (2023 Q4 or higher - to communicate with DUT)
       
-      NI DMM 21.3 (required for gain and offset)
+      NI DMM (21.3 or higher - required for gain and offset)
       
-      NI DCPower 2023 Q4 sSupport Argus hardware - 4051/52)
+      NI DCPower (2023 Q4 or higher - support Argus hardware - 4051/52)
       
-      NI Fgen 21.8 (needed for channel to channel isolation)
+      NI Fgen (21.8 or higher - needed for channel to channel isolation)
 
 
 

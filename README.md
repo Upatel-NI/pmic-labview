@@ -4,11 +4,15 @@ This plug-in makes measurements for validation of Power Management ICs. The test
 
 ## Key Features
 
-Line Regulation
+    Line Regulation
 
-Efficiency and Load Regulation
+    Efficiency/Load Regulation
 
-Load Transient Response
+    Output Voltage Accuracy
+
+    Line Transient Response
+
+    Load Transient Response
 
 ## Hardware Setup
 

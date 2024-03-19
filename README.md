@@ -11,6 +11,7 @@ Load and Efficiency Regulation
 Load Tranient Response
 
 ## Hardware Setup
+![image](https://github.com/NI-MeasurementLink-Plug-Ins/pmic-labview/assets/158544163/6f1ab57c-2912-42d0-97e2-9bbacf02ec51)
 
 Instrumentation:
 

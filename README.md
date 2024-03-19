@@ -10,50 +10,60 @@ This plug-in makes measurements for validation of Power Management ICs. The test
 
     Output Voltage Accuracy
 
+    Ripple
+
     Line Transient Response
 
     Load Transient Response
 
 ## Hardware Setup
+ ![image](https://github.com/NI-MeasurementLink-Plug-Ins/pmic-labview/assets/158544163/250de597-a185-4c6a-935b-940b35df2d0a)
 
 
 Instrumentation:
 
-  Programmable Power Supply (NI 415x)
-  
-  E-Load (NI 405x)
-  
-  PMIC DUT
+    DC Electronic Load (NI 4051)
+
+    Programmable Power Supply (NI 4151)
+
+    AUX Power Supply (APS 4158)
+
+    Waveform Generator (NI 5433)
+
+    Oscilloscope (NI 5162)
+
+    Controller (NI 8881)
+
+    Chassis (NI 1092)
+
+    Digital Pattern Instrument (NI 6571)
+
+    DUT (DC1811B-B)
+
+    Line Injector (J2120A)
 
 
-Tested hardware setup:
-
-  NI 4151 PPS
-  
-  NI 4051 E-Load
-  
-  LTM4676A DUT 
 
 
 ## Software Installation
 
 Install from NI Package Manager:
 
-  InstrumentStudio 
-  
-  MeasurementLink 
-  
-  TestStand
-  
-  LabVIEW
-  
-  SDC (to communicate with DUT)
-  
-  NI DMM (required for gain and offset)
-  
-  NI DCPower (Support Argus hardware - 4051/52)
-  
-  NI Fgen (needed for channel to channel isolation)
+      InstrumentStudio (2023 Q4 or higher)
+      
+      MeasurementLink (2023 Q4 or higher)
+      
+      TestStand (2022 Q4 or higher)
+      
+      LabVIEW (2021 SP1 or higher)
+      
+      SDC 2023 Q4 or higher (to communicate with DUT)
+      
+      NI DMM 21.3 (required for gain and offset)
+      
+      NI DCPower 2023 Q4 sSupport Argus hardware - 4051/52)
+      
+      NI Fgen 21.8 (needed for channel to channel isolation)
 
 
 
